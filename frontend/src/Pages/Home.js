@@ -9,14 +9,14 @@ function Home() {
     return (
         <div class="flex flex-row w-full h-full ">
             <div className='basis-[20%] h-screen bg-white flex-col flex justify-start align-middle mt-5 px-2'>
-                <div className='w-[80%] border-black border m-1 rounded-lg flex justify-center align-middle'
+                <div className='w-[80%] border-black border m-1 rounded-lg flex justify-center align-middle hover:cursor-pointer'
                 onClick={()=> setSelected('user')}
                 > users</div>
-                <div className='w-[80%] border-black border m-1 rounded-lg flex justify-center align-middle'
+                <div className='w-[80%] border-black border m-1 rounded-lg flex justify-center align-middle hover:cursor-pointer'
                     onClick={() => setSelected('task')}
 
                 > tasks</div>
-                <div className='w-[80%] border-black border m-1 rounded-lg flex justify-center align-middle'
+                <div className='w-[80%] border-black border m-1 rounded-lg flex justify-center align-middle hover:cursor-pointer'
                     onClick={() => setSelected('report')}
                 > Reports</div>
 
